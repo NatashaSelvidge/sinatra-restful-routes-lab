@@ -17,6 +17,7 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (6.0.4)
+    bcrypt (3.1.16)
     bond (0.5.1)
     builder (3.2.3)
     capybara (3.29.0)
@@ -101,9 +102,11 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   activerecord (= 4.2.7.1)
+  bcrypt
   capybara
   database_cleaner
   json
@@ -120,4 +123,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.0.2
+   2.2.1
